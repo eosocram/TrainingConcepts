@@ -1,0 +1,14 @@
+/home/usuario/RiderProjects/AnimalApp/bin/Debug/net8.0/AnimalApp
+/home/usuario/RiderProjects/AnimalApp/bin/Debug/net8.0/AnimalApp.deps.json
+/home/usuario/RiderProjects/AnimalApp/bin/Debug/net8.0/AnimalApp.runtimeconfig.json
+/home/usuario/RiderProjects/AnimalApp/bin/Debug/net8.0/AnimalApp.dll
+/home/usuario/RiderProjects/AnimalApp/bin/Debug/net8.0/AnimalApp.pdb
+/home/usuario/RiderProjects/AnimalApp/obj/Debug/net8.0/AnimalApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/usuario/RiderProjects/AnimalApp/obj/Debug/net8.0/AnimalApp.AssemblyInfoInputs.cache
+/home/usuario/RiderProjects/AnimalApp/obj/Debug/net8.0/AnimalApp.AssemblyInfo.cs
+/home/usuario/RiderProjects/AnimalApp/obj/Debug/net8.0/AnimalApp.csproj.CoreCompileInputs.cache
+/home/usuario/RiderProjects/AnimalApp/obj/Debug/net8.0/AnimalApp.dll
+/home/usuario/RiderProjects/AnimalApp/obj/Debug/net8.0/refint/AnimalApp.dll
+/home/usuario/RiderProjects/AnimalApp/obj/Debug/net8.0/AnimalApp.pdb
+/home/usuario/RiderProjects/AnimalApp/obj/Debug/net8.0/AnimalApp.genruntimeconfig.cache
+/home/usuario/RiderProjects/AnimalApp/obj/Debug/net8.0/ref/AnimalApp.dll
