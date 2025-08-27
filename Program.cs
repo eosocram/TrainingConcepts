@@ -7,7 +7,7 @@ namespace App
         static void Main(string[] args)
         {
             Console.WriteLine("Escolha uma opção e acesse uma parte específica dos meus estudos:");
-            Console.WriteLine("DIGITE: 1 - PARA O PROGRAMA DAR LISTA DE SONS DOS ANIMAIS | 2 - AINDA NÃO CRIADO ;(");
+            Console.WriteLine("DIGITE: 1 - PARA O PROGRAMA LISTAR DADOS SOBRE CACHORROS | 2 - AINDA NÃO CRIADO ;(");
             int opcao = int.Parse(Console.ReadLine()!);
 
             switch (opcao)
