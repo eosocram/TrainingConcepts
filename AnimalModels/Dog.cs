@@ -2,7 +2,7 @@ using Repositories;
 
 namespace App
 {
-    public class Dog : Animal
+    public class Dog : Animal, IRun 
     {
         public Dog(string name = "DogName")
         {

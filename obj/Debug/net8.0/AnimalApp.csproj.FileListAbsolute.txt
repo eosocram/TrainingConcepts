@@ -12,3 +12,4 @@
 /home/usuario/RiderProjects/AnimalApp/obj/Debug/net8.0/AnimalApp.pdb
 /home/usuario/RiderProjects/AnimalApp/obj/Debug/net8.0/AnimalApp.genruntimeconfig.cache
 /home/usuario/RiderProjects/AnimalApp/obj/Debug/net8.0/ref/AnimalApp.dll
+/home/usuario/RiderProjects/AnimalApp/obj/Debug/net8.0/AnimalApp.sourcelink.json
