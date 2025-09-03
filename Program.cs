@@ -6,44 +6,41 @@ namespace AnimalApp
     {
         static void Main()
         {
-                
-                Console.WriteLine("Escolha uma opção e acesse uma parte específica dos meus estudos:");
-                Console.WriteLine("DIGITE: 1 - PARA O PROGRAMA LISTAR DADOS SOBRE CACHORROS | 2 - FUNCIONALIDADE INDA NÃO DESENVOLVIDA");
 
-                string? input = Console.ReadLine();
-                if (short.TryParse(input, out short opcao))
-                {
-                    Console.WriteLine($"Opção: {opcao} selecionado com sucesso!");
-                }
-                else
-                {
-                    Console.WriteLine($"Número: {input} inválido");
-                }
-                
+            Console.WriteLine("Escolha uma opção e acesse uma parte específica dos meus estudos:");
+            Console.WriteLine(
+                "DIGITE: 1 - PARA O PROGRAMA LISTAR DADOS SOBRE CACHORROS | 2 - FUNCIONALIDADE INDA NÃO DESENVOLVIDA");
 
-                switch (opcao)
-                {
-                    case 1: CachorrosMock(); break;
-
-                    case 2: GatosMock(); break;
-                    default:
-                        Console.WriteLine("Erro Capturado: Opção inválida");
-                        break;
-                }
-        }
-
-        static void CachorrosMock()
-        {
-            List<Dog> dogs = DogRepository.GetDogs();
-                        
-            foreach (var dog in dogs)
+            string? input = Console.ReadLine();
+            if (short.TryParse(input, out short opcao))
             {
-                Console.WriteLine($"Cachorro: {dog.Name} ");
-                dog.Sound();
-                dog.Run();
-                            
-            }   
+                Console.WriteLine($"Opção: {opcao} selecionado com sucesso!");
+            }
+            else
+            {
+                Console.WriteLine($"Número: {input} inválido");
+            }
+
+
+            switch (opcao)
+            {
+                case 1:
+                    var repo = new AnimalRepository();
+                    var animals = repo.GetAnimal();
+                    foreach (var animal in animals)
+                    {
+                        animal.Sound();
+                    }
+
+                    break;
+                case 2: GatosMock(); break;
+                case 3:
+                default:
+                    Console.WriteLine("Erro Capturado: Opção inválida");
+                    break;
+            }
         }
+        
 
         static void GatosMock()
         {
@@ -54,5 +51,7 @@ namespace AnimalApp
             gatos.Sound();
             gatos.Run();
         }
+        
+        
     } 
 }
