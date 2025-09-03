@@ -1,4 +1,4 @@
-namespace App
+namespace AnimalApp
 {
     abstract public class Animal
     {

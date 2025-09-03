@@ -1,4 +1,4 @@
-using App;
+using AnimalApp;
 namespace Repositories
 {
     public static class DogRepository
